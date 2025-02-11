@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+    font-family: "Poppins", serif;
+}
+
+/* navbar */
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active {
+    background-color: white;
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+}
+
+.text-nav-active {
+    color: black;
+}
+
+/* hero */
+#hero {
+    background-image: url("../img/sekolah1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.hero-title {
+    padding-top: 200px;
+}
+
+.hero-text {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: blue;
+    padding: 10px 45px;
+    color: blue;
+}
+
+.btn-info {
+    border-radius: 10px;
+    padding: 10px 45px;
+    color: white;
+}
+
+/* sambutan */
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color: blue;
+}
+
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    background-image: url(../img/sekolah.jpg);
+}
+
+.stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: white;
+}
+
+/* Responsive Design */
+
+/* Small devices (max-width: 576px) */
+@media (max-width: 576px) {
+    .nav-item .nav-link {
+        font-size: 14px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    #hero {
+        height: 400px;
+    }
+
+    .hero-title {
+        padding-top: 100px;
+    }
+
+    .hero-text {
+        font-size: 40px;
+    }
+
+    .btn-primary {
+        padding: 8px 30px;
+        font-size: 14px;
+    }
+
+    .section-foto {
+        height: 300px;
+    }
+}
+
+/* Medium devices (min-width: 577px and max-width: 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .nav-item .nav-link {
+        font-size: 16px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    #hero {
+        height: 500px;
+    }
+
+    .hero-title {
+        padding-top: 150px;
+    }
+
+    .hero-text {
+        font-size: 50px;
+    }
+
+    .btn-primary {
+        padding: 9px 40px;
+        font-size: 16px;
+    }
+
+    .section-foto {
+        height: 400px;
+    }
+}
+
+/* Large devices (min-width: 769px) */
+@media (min-width: 769px) {
+    .nav-item .nav-link {
+        font-size: 18px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #hero {
+        height: 600px;
+    }
+
+    .hero-title {
+        padding-top: 200px;
+    }
+
+    .hero-text {
+        font-size: 65px;
+    }
+
+    .btn-primary {
+        padding: 10px 45px;
+        font-size: 18px;
+    }
+
+    .section-foto {
+        height: 500px;
+    }
+}
